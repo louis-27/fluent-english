@@ -1,9 +1,10 @@
 import { View, Text } from "react-native";
+import useAuth from "../hooks/useAuth";
 
 const LoginScreen = () => {
   return (
     <View>
-      <Text>This is the login screen</Text>
+      <Text>Login</Text>
     </View>
   );
 };
